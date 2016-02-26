@@ -1,10 +1,10 @@
 .container-fluid{
-  background-color: purple;
+  background-color: #3eb489;
   padding: 20px;
 }
 
 .header{
-  background-color: pink;
+  background-color: seagreen;
   padding: 20px;
   height:200px;
   border: 2px solid black;
@@ -18,7 +18,7 @@
 }
 
 .content{
-  background-color: red;
+  background-color: aquamarine;
   padding: 20px;
   height:200px;
   border: 2px solid black;
