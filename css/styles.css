@@ -46,6 +46,34 @@
   border: 2px solid black;
 }
 
+@media screen and (min-width : 375px){
+  .container-fluid{
+    background-color: white;
+  }
+  .header{
+    background-color: brown;
+  }
+
+  .nav{
+    background-color: yellow;
+  }
+
+  .content{
+    background-color: black;
+  }
+
+  .aside{
+    background-color: #206040;
+  }
+
+  .promo{
+    background-color: #209802;
+  }
+  .footer{
+    background-color: #867932;
+  }
+}
+
 @media screen and (min-width : 768px){
   .container-fluid{
     background-color: purple;
@@ -72,34 +100,5 @@
   }
   .footer{
     background-color: pink;
-  }
-}
-
-@media screen and (min-width : 385px){
-  .container-fluid{
-    background-color: white;
-  }
-
-  .header{
-    background-color: brown;
-  }
-
-  .nav{
-    background-color: yellow;
-  }
-
-  .content{
-    background-color: black;
-  }
-
-  .aside{
-    background-color: #206040;
-  }
-
-  .promo{
-    background-color: #209802;
-  }
-  .footer{
-    background-color: #867932;
   }
 }
