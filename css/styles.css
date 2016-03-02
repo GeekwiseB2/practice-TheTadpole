@@ -1,10 +1,10 @@
 .container-fluid{
-  background-color: purple;
+  background-color: #3eb489;
   padding: 20px;
 }
 
 .header{
-  background-color: pink;
+  background-color: seagreen;
   padding: 20px;
   height:200px;
   border: 2px solid black;
@@ -18,7 +18,7 @@
 }
 
 .content{
-  background-color: red;
+  background-color: aquamarine;
   padding: 20px;
   height:200px;
   border: 2px solid black;
@@ -44,4 +44,61 @@
   padding: 20px;
   height:200px;
   border: 2px solid black;
+}
+
+@media screen and (min-width : 375px){
+  .container-fluid{
+    background-color: white;
+  }
+  .header{
+    background-color: brown;
+  }
+
+  .nav{
+    background-color: yellow;
+  }
+
+  .content{
+    background-color: black;
+  }
+
+  .aside{
+    background-color: #206040;
+  }
+
+  .promo{
+    background-color: #209802;
+  }
+  .footer{
+    background-color: #867932;
+  }
+}
+
+@media screen and (min-width : 768px){
+  .container-fluid{
+    background-color: purple;
+  }
+
+  .header{
+    background-color: violet;
+  }
+
+  .nav{
+    background-color: magenta;
+  }
+
+  .content{
+    background-color: hotpink;
+  }
+
+  .aside{
+    background-color: red;
+  }
+
+  .promo{
+    background-color: orange;
+  }
+  .footer{
+    background-color: pink;
+  }
 }
