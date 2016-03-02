@@ -74,3 +74,32 @@
     background-color: pink;
   }
 }
+
+@media screen and (min-width : 385px){
+  .container-fluid{
+    background-color: white;
+  }
+
+  .header{
+    background-color: brown;
+  }
+
+  .nav{
+    background-color: yellow;
+  }
+
+  .content{
+    background-color: black;
+  }
+
+  .aside{
+    background-color: #206040;
+  }
+
+  .promo{
+    background-color: #209802;
+  }
+  .footer{
+    background-color: #867932;
+  }
+}
